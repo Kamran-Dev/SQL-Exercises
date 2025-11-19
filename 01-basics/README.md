@@ -28,3 +28,4 @@ FROM customers
 ```
 
 **Result**
+![exercise01](files-and-screenshots/exercise02_results.jpg)
