@@ -63,7 +63,6 @@ WHERE country = 'Germany'
 ![exercise01](files-and-screenshots/exercise04_results.jpg)
 
 
-
 # SQL Task 05
 ### Retreive all customers and sort the results by the highest score first
 
@@ -78,3 +77,17 @@ ORDER BY score DESC
 **Result**
 
 ![exercise01](files-and-screenshots/exercise05_results.jpg)
+
+
+# SQL Task 06
+### Retrieve all customers and sort the results by country and then by the highest score
+
+**Solution**
+
+```sql
+SELECT *
+FROM customers
+ORDER BY country ASC, score DESC
+```
+
+![exercise01](files-and-screenshots/exercise06_results.jpg)
