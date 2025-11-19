@@ -28,4 +28,38 @@ FROM customers
 ```
 
 **Result**
+
 ![exercise01](files-and-screenshots/exercise02_results.jpg)
+
+
+# SQL Task 03
+### Retreive each customers with a score not equal to 0
+
+**Solution**
+
+```sql
+SELECT *
+FROM customers
+WHERE score != 0
+```
+
+**Result**
+
+![exercise01](files-and-screenshots/exercise03_results.jpg)
+
+# SQL Task 04
+### Retreive customers from Germany
+
+**Solution**
+
+```sql
+SELECT *
+FROM customers
+WHERE country = 'Germany'
+```
+
+**Result**
+
+![exercise01](files-and-screenshots/exercise04_results.jpg)
+
+
