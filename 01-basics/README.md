@@ -13,3 +13,4 @@ FROM customers;
 ```
 
 **Result**
+![exercise01](files-and-screenshots/exercise01_results.png.jpg)
