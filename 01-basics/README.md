@@ -125,3 +125,22 @@ GROUP BY country
 **Result**
 
 ![exercise01](files-and-screenshots/exercise08_results.jpg)
+
+
+# SQL Task 09
+### Find the average score for each country considering only customers with a score not equal to 0 and return only those countries with an average score greater than 430
+
+**Solution**
+
+```sql
+SELECT	country, 
+		AVG(score) AS average_score
+FROM customers
+WHERE score != 0
+GROUP BY country
+HAVING AVG(score) > 430
+```
+
+**Result**
+
+![exercise01](files-and-screenshots/exercise09_results.jpg)
