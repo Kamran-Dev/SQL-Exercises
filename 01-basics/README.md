@@ -144,3 +144,18 @@ HAVING AVG(score) > 430
 **Result**
 
 ![exercise01](files-and-screenshots/exercise09_results.jpg)
+
+# SQL Task 010
+### Show distinct countries sorted Z→A
+
+**Solution**
+
+```sql
+SELECT DISTINCT country
+FROM customers
+ORDER BY country DESC
+```
+
+**Result**
+
+![exercise01](files-and-screenshots/exercise10_results.jpg)
