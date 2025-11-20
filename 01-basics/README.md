@@ -91,3 +91,17 @@ ORDER BY country ASC, score DESC
 ```
 
 ![exercise01](files-and-screenshots/exercise06_results.jpg)
+
+
+# SQL Task 07
+### Find the total score for each country
+
+**Solution**
+
+```sql
+SELECT country, SUM(score) AS total_score
+FROM customers
+GROUP BY country
+```
+
+![exercise01](files-and-screenshots/exercise07_results.jpg)
