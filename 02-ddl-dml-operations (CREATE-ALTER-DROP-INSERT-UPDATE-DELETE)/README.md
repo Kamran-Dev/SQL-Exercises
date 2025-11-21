@@ -5,7 +5,13 @@
 **Solution**
 
 ```sql
-
+CREATE TABLE book_storage(
+	book_id INT PRIMARY KEY,
+	title VARCHAR(150) NOT NULL,
+	author VARCHAR(100) NOT NULL,
+	published_year INT,
+	price DECIMAL(10,2)
+)
 ```
 
 **Result**
