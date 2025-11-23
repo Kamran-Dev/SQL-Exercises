@@ -22,3 +22,21 @@ FROM book_storage
 
 ![exercise01](files-and-screenshots/01.Exercise_results.jpg)
 
+## ⭐ Task 02 — Delete "published_year" column and add new column "year_of_publish"
+
+**Solution**
+
+```sql
+ALTER TABLE book_storage
+DROP COLUMN published_year
+
+ALTER TABLE book_storage
+ADD year_of_publish INT 
+
+SELECT *
+FROM book_storage
+```
+
+**Result**
+
+![exercise01](files-and-screenshots/02.Exercise_results.jpg)
