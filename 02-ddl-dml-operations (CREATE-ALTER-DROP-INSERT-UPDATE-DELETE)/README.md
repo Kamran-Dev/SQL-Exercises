@@ -6,15 +6,19 @@
 
 ```sql
 CREATE TABLE book_storage(
-	book_id INT PRIMARY KEY,
+	book_id INT NOT NULL,
 	title VARCHAR(150) NOT NULL,
 	author VARCHAR(100) NOT NULL,
 	published_year INT,
 	price DECIMAL(10,2)
+	CONSTRAINT pk_storage PRIMARY KEY (book_id)
 )
+
+SELECT *
+FROM book_storage
 ```
 
 **Result**
 
-![exercise01](files-and-screenshots/exercise01_results.png.jpg)
+![exercise01](files-and-screenshots/01.Exercise_results.jpg)
 
