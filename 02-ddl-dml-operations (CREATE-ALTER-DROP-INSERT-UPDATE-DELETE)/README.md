@@ -47,6 +47,12 @@ FROM book_storage
 ### 2       | Quantum Sands                 | Dr. Aaron Whitfield  | 22.50 | 2021
 ### 3       | Shadows of the Clocktower     | Mira Lawson          | 9.75  | 2015
 
+## Update data, change the price of last book to 8.55
+## Delete the second row
+## Add this data to table:
+4       | Algorithms of Tomorrow        | Liam Hartman         | 31.20 | 2023
+
+
 
 **Solution**
 
