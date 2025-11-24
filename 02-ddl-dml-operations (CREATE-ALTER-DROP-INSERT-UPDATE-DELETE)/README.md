@@ -57,10 +57,30 @@ FROM book_storage
 **Solution**
 
 ```sql
+-- Insert given data to table:
 
+INSERT INTO  book_storage
+VALUES	(1, 'The Silent Horizon', 'Emma Caldwell', 14.99, 2018),
+		(2, 'Quantum Sands', 'Dr. Aaron Whitfield', 22.50, 2021),
+		(3, 'Shadows of the Clocktower', 'Mira Lawson', 9.75, 2015)	
 
-SELECT *
-FROM book_storage
+-- Update data by changing the price of last book to 8.55
+
+UPDATE book_storage
+SET price = 8.55
+WHERE book_id = 3
+
+-- Delete the second row from the table.
+
+DELETE FROM book_storage
+WHERE book_id = 2
+
+-- Insert the following data into the table. (4 | Algorithms of Tomorrow | Liam Hartman | 31.20 | 2023)
+
+INSERT INTO book_storage
+VALUES	(4, 'Algorithms of Tomorrow', 'Liam Hartman', 31.20, 2023)
+
+SELECT * FROM book_storage
 ```
 
 **Result**
