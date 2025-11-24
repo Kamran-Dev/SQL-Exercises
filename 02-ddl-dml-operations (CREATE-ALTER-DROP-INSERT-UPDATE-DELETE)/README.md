@@ -42,7 +42,7 @@ FROM book_storage
 ![exercise01](files-and-screenshots/02.Exercise_results.jpg)
 
 
-## ⭐ Task 02 — Insert given data to table:
+## ⭐ Task 03 — Insert given data into the table:
 ### 1       | The Silent Horizon            | Emma Caldwell        | 14.99 | 2018
 ### 2       | Quantum Sands                 | Dr. Aaron Whitfield  | 22.50 | 2021
 ### 3       | Shadows of the Clocktower     | Mira Lawson          | 9.75  | 2015
